@@ -1,0 +1,10 @@
+---
+applications:
+- name: hdb-search-pdf
+  memory: 256M
+  instances: 1
+  host: hdb-search-pdf
+  path: .
+  command: node server.js
+  services:
+    - search
